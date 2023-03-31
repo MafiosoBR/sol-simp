@@ -110,6 +110,7 @@
                 max-width: 1500px;
                 padding-inline-start: 10px;
                 margin: 10px;
+                margin-left:2%;
                 border: 1px solid #000; 
                 display: nowrap;  
                 border-radius: 10px;
@@ -117,11 +118,19 @@
             }
             .item{
                 max-width: 1200px;
+                width: auto;
                 background-color: #1fa1a1;
                 margin-inline: 10px;
+                margin: 2%;
+                margin-left: 2%;
+                margin-right: 2%;
                 padding: 45px;
                 border-radius: 10px;
                 display: inline-block;
+            }
+            .img1{
+                width: 100%;
+                display: inline-flexbox;
             }
             .item1{
                 max-width: 1235px;
@@ -133,6 +142,13 @@
                 display: inline-block;
             } .item2{
                 padding:15px;
+            } .item3{
+                background-color: rgb(195, 233, 248);
+                margin-right: 30%;                
+                display: inline-block;
+                padding:3%;
+                border-radius: 10%;
+
             }
             .titulo{  
                 text-align: center;
@@ -171,13 +187,14 @@
                 width:100;
             }
             .corpweb{
+                background-image: url(https://7c1498dcdf.cbaul-cdnwnd.com/35a5283135fed4a6e6d3959bf3da38c1/200000003-9a83f9b7d1/fundo%20flocos%20de%20neve.jpg?ph=7c1498dcdf);
                 background-color:#e9e6e6;
                 margin:2%;
                 color: #0a4f64;
                 font-size: 20px;
 
             }
-            .rodpé{
+            .rodpe{
                 font-size: 12px;
             }
             .Aviso{
@@ -192,18 +209,19 @@
             .textoIn{
                 padding:20px;
                 color: whitesmoke;
-            } .wats{
+            } 
+            .wats{
                 text-shadow: #000;
                 text-align:left;
             }
             .borda{
                 background-color: #8d2e31;
+                padding: 0%;
                 color: #dfdede;
                 border-radius: 6px;
-            
-                
-                
+                                           
             }.bode{
+                
                 border-radius: 3%;
                 box-sizing: border-box;
                 margin-top: 10px;
@@ -232,16 +250,18 @@
     <header><!--criando um cabeçalho para nossa página com um menu-->
         <h2>Ar Condicionado Bom E Barato</h2>
         <nav><!--vamos criar um menu utilizando listas-->
+            <span>
             <ul>
-                <li> <span> Qual seria o "Melhor Custo Beneficio"? </span> 
-                    <br> O mais barato talvez? 
-                    <br> Mesmo sendo inverter? 
-                    <br> Aqui vamos esclarecer todas as suas dúvidas!</li>
-                <ul>
-                <h2 class="item1">
+                <li>  Qual seria o "Melhor Custo Beneficio"?</li> 
+                <li> O mais barato talvez?</li>  
+                <li> Mesmo sendo inverter? </li>
+                <li> Aqui vamos esclarecer todas as suas dúvidas!</li>
+            
+                <h2 class="item3">
                     Maquinas Inverter 
                 </<h2>
-                </ul>
+            </ul></span>
+            <ul>
             
                 <li><p>
                 Com certeza já ouviram falar que aparelhos inverter, sejam eles, geladeira, maquinas, ar-condicionado e freezers, por exemplo, tem um alto rendimento e uma alta taxa de economia.
@@ -270,7 +290,10 @@
             <ol class="flex"><!--vamos criar uma lista ordenada-->
                 <div>         
                     <h3 class="titulo"> Split & Mult-Split </h3>
-                 <li class="item"><a href="Split.MultSplit.html"><img src="splitxmultsplitpng.png" alt="foto multsplit"></a></li>             
+                    <div class="item">
+                        <li class="img1"><a href="Split.MultSplit.html"><img  src="splitxmultsplitpng.png" alt="foto multsplit" width="100%"></a></li>
+                    </div>
+                              
               
                 
                 </div>
@@ -337,7 +360,7 @@
         <li> Converse com o vendedor através do &emsp;... <a href="https://wa.me/5561993144860?text=Ol%C3%A1%20meu%20nome%20%C3%A9%20Marcus%20Henrique,%20estou%20a%20disposi%C3%A7%C3%A3o%20para%20orienta-lo%20e%20esclarecer%20qualquer%20duvida,%20garantindo%20a%20voc%C3%AA%20uma%20compra%20segura%20e%20r%C3%A1pida!" target="_blank"><img src="icowhats3.png"icoWats"> </a> </li>            
 
     </ul>
-    <div class="borda"><p class="bode">
+    <div class="borda"><p>
         <div class="borda1">
             <H5>OBSERVAÇÃO</H5> É  muito importante adicionar o código do vendedor antes de finalizara compra, para que o mesmo consiga acompanhar e dar o suporte nescessario no que precisar. </p>
         </div>
